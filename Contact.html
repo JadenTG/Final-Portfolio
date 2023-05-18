@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Contact.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header class="head">
+        <a class="link" href="index.html">
+        <h1>Home</h1>
+        </a>
+    </header>
+
+    <div class="Section1">
+        <form>
+            <fieldset class="fs">
+                <h1>Contact Form</h1>
+                <hr>
+                <br><br>
+                <label class="fname text">First Name:</label>
+                <input for="fname" type="text" name="Fname" placeholder="John" pattern="^[a-zA-Z]*[^0-9]" required />
+                <br><br>
+                <label class="lname text">Last Name:</label>
+                <input for="lname" type="text" name="Lname" placeholder="Doe" pattern="^[a-zA-Z]*[^0-9]" required />
+                <br><br>
+                <label class="pnum text">Phone Number:</label>
+                <input for="pnum" type="tel" name="Pnum" placeholder="123-456-7890" pattern="^[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+                <br><br>
+                <label class="email text">Email:</label>
+                <input for="email" type="email" name="email" placeholder="johndoe4@example.com" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required />
+                <br><br>
+                <label class="sub text">Subject:</label>
+                <input for="sub" type="text" name="Sub" placeholder="Example" required />
+                <br><br>
+                <label class="com text">Comment:</label>
+                <input class="textBox" for="com" type="text" name="Com" placeholder="Example...." required />
+                <br><br>
+                <button class="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <div class = "ft">
+            <h3>© All Rights Reserved</h3>
+        </div>
+    </footer>
+</body>
+</html>
